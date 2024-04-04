@@ -9,10 +9,11 @@ body{
     height:395px;
     border:10px solid goldenrod;
     margin:60px auto 0 auto;
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0),rgba(255,255,255,0.5)),url("image/hb4.jpeg");
+     background: linear-gradient(45deg,goldenrod,rgb(29, 1, 1)) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+   
 }
 
 .cover-outer{
@@ -53,14 +54,20 @@ img{
         transform:rotateY(170deg);
     }
 }
+.upper{
+    font-size: larger;
+}
 
 .text{
+  
     display: flex;
+    flex-direction: column;
     justify-content:center;
     align-items: center;
     margin-top: 100px;
-    font-family: monospace;
+    font-family: cursive;
     font-size: larger;
+    color:blanchedalmond;
     
 }   
 
@@ -74,3 +81,4 @@ img{
     }
 
 }
+
